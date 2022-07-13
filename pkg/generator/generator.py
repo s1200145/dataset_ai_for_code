@@ -87,7 +87,7 @@ def split_meta_and_code(code: str):
     return include_statement, not_include_statement
 
 def get_code(judge_id) -> str:
-    file_path = '..' + os.sep + '..' + os.sep + 'aoj_archive' + os.sep + 'archive_migrate' + os.sep + str(judge_id) + ".txt"
+    file_path = '.' + os.sep + "source_code os.sep" + os.sep + str(0) +  str(judge_id) + ".c"
     if os.path.isfile(file_path):
         with open(file_path, encoding="utf-8") as f:
             return f.read()
